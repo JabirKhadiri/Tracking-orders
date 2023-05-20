@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="407.0" prefWidth="766.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ma.fstt.viewController.HomeController">
+   <children>
+      <Pane layoutX="-8.0" prefHeight="407.0" prefWidth="758.0" style="-fx-background-color: #3c5077;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-8.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Pane layoutX="64.0" layoutY="98.0" prefHeight="143.0" prefWidth="138.0" style="-fx-background-radius: 70;">
+               <children>
+                  <Button fx:id="products" layoutX="-12.0" mnemonicParsing="false" onAction="#openProduit" prefHeight="143.0" prefWidth="138.0" style="-fx-background-radius: 20; -fx-background-color: #6fd649;">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <graphic>
+                        <ImageView fitHeight="73.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../Images/2652218.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Label layoutX="17.0" layoutY="108.0" prefHeight="28.0" prefWidth="88.0" text="PRODUITS" textFill="WHITE">
+                     <font>
+                        <Font name="Copperplate Gothic Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="243.0" layoutY="98.0" prefHeight="143.0" prefWidth="138.0" style="-fx-background-radius: 80;">
+               <children>
+                  <Button fx:id="commandes" layoutX="-10.0" mnemonicParsing="false" onAction="#openCommande" prefHeight="143.0" prefWidth="138.0" style="-fx-background-color: #6fd649; -fx-background-radius: 20;">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <graphic>
+                        <ImageView fitHeight="67.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../Images/2649297.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Label layoutX="9.0" layoutY="108.0" prefHeight="28.0" prefWidth="113.0" text="COMMANDES" textFill="WHITE">
+                     <font>
+                        <Font name="Copperplate Gothic Bold" size="13.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane layoutX="417.0" layoutY="98.0" prefHeight="143.0" prefWidth="138.0" style="-fx-background-radius: 70;">
+               <children>
+                  <Button fx:id="Livreurs" layoutX="-3.0" mnemonicParsing="false" onAction="#openLivreur" prefHeight="143.0" prefWidth="138.0" style="-fx-background-color: #6fd649; -fx-background-radius: 20;">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <graphic>
+                        <ImageView fitHeight="67.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../Images/2830175.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Label layoutX="25.0" layoutY="108.0" prefHeight="28.0" prefWidth="81.0" text="LIVREURS" textFill="WHITE">
+                     <font>
+                        <Font name="Copperplate Gothic Bold" size="14.0" />
+                     </font></Label>
+               </children></Pane>
+            <Pane layoutX="598.0" layoutY="98.0" prefHeight="143.0" prefWidth="138.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#openDashboard" prefHeight="143.0" prefWidth="138.0" style="-fx-background-color: #6fd649; -fx-background-radius: 20;">
+                     <font>
+                        <Font name="Copperplate Gothic Bold" size="12.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="77.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../Images/6322766.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Label layoutX="19.0" layoutY="113.0" prefHeight="17.0" prefWidth="107.0" text="DASHBOARD" textFill="WHITE">
+                     <font>
+                        <Font name="Copperplate Gothic Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
